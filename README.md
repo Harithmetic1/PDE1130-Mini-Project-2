@@ -12,7 +12,7 @@ Each class contains different methods
 1. setWidth() - This is the function used for changing the width of the rectangle after instantiated
 2. setHeight() - This is the function used for changing the height of the rectangle after instantiated
 3. setSide() - This is the function for changing the length of each side of the square after being instantiated
-4.  getArea() - This is the function for calculating the area of the rectangle or square
+4. getArea() - This is the function for calculating the area of the rectangle or square
 5. getPerimeter() - This is the function for calculating the perimeter of the rectangle or square
 6. getDiagonal() - This is the function for finding the length of the diagonal of the rectangle or square
 7. getPicture() - Function for drawing the picture of the shape to the terminal
