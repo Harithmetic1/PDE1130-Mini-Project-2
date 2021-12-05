@@ -1,6 +1,6 @@
 ## PYTHON MINI PROJECT 2 - M00810859
 
-# Class Created - Shapes.py
+# Class Created - Rectangle.py
 
 This method contains two classes
 1. Rectangle class
