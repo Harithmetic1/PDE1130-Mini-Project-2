@@ -25,9 +25,9 @@ When we want to use codes from a module or library, we need to import that libra
 Import can be done in three different ways
 1. Full import: This gets all the classes used in that module into our program and ready to be used by the programmer
 `import xyz`
-2. Partial import: This is used to get specific classes from a module/library, to prevent the burdening the interpreter with information that won't be used. 
+2. Partial import: This is used to get specific classes from a module/library, to prevent burdening the interpreter with information that won't be used. 
 `from xyz import abc`
 3. Renaming modules: We can import a module with a different name just in case the module/library name is too long for us to use. 
-`import xyz as abc`
+`import xyz as a`
 
 To import a library/module into a python program we need to keep the module in the same directory as the required program or install it into the python virtual machine.  
