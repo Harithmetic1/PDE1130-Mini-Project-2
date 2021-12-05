@@ -1,3 +1,4 @@
+# This solves SOB35
 class Rectangle():
     shape = "rectangle"
     def __init__(self, width, height): # Function to instantiate the object with width and height passed as arguments
@@ -19,7 +20,8 @@ class Rectangle():
         perimeter = 2 * (self.width + self.height)
         return f'Perimeter of rectangle: {perimeter}m'
 
-    def getDiagonal(self): # Function for finding the length of the diagonal for the shape
+    
+    def getDiagonal(self): # Function for finding the length of the diagonal for the shape 
         diagonal = (self.width ** 2 + self.height ** 2) ** 0.5
         return f'The diagonal lenght of this {self.shape} is: {diagonal}'
 
@@ -30,6 +32,7 @@ class Rectangle():
         else:
             print("Shape is too big")
 
+    # This solves SOB32
     def getAmountInside(self, shape): # This function gets a square or rectangle as an argument and returns the amount of times the shape will fit in the parent shape
         if shape.lower() == "rectangle":
             recHeight = int(input("Enter height of rectangle: "))

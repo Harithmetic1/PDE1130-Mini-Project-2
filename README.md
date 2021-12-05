@@ -18,7 +18,7 @@ Each class contains different methods
 7. getPicture() - Function for drawing the picture of the shape to the terminal
 8. getAmountInside() - This function gets a square or rectangle as an argument and returns the amount of times the shape will fit in the parent shape
 
-## Python's Compiler Import functionality
+## Python's Compiler Import functionality - SOB 33
 
 When we want to use codes from a module or library, we need to import that library or module into the required program. To do this we use the import keyword. 
 
