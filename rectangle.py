@@ -1,4 +1,4 @@
-# This solves SOB35
+# This solves SOB35 (Write and use your own library or class. A library must include at least two parametric functions; a class must include appropriate properties and methods.)
 class Rectangle():
     shape = "rectangle"
     def __init__(self, width, height): # Function to instantiate the object with width and height passed as arguments
@@ -32,7 +32,7 @@ class Rectangle():
         else:
             print("Shape is too big")
 
-    # This solves SOB32
+    # This solves SOB32 ( Create functions that use parameters and provide results in appropriate types.)
     def getAmountInside(self, shape): # This function gets a square or rectangle as an argument and returns the amount of times the shape will fit in the parent shape
         if shape.lower() == "rectangle":
             recHeight = int(input("Enter height of rectangle: "))
